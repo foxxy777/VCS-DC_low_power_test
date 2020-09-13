@@ -1,0 +1,60 @@
+/** There is no explict set_gate_level_monitoring command, **/
+/** and the default behavior is to monitor internal nets  **/
+(SAIFILE
+(SAIFVERSION "2.0")
+(DIRECTION "backward")
+(DESIGN )
+(DATE "Sat Nov 16 16:15:30 2019")
+(VENDOR "Synopsys, Inc")
+(PROGRAM_NAME "VCS L-2016.06-SP2_Full64")
+(VERSION "1.0")
+(DIVIDER / )
+(TIMESCALE 1 ns)
+(DURATION 765.00)
+(INSTANCE Testbench
+   (INSTANCE top_instance
+      (NET
+         (mul_a\[3\]
+            (T0 480) (T1 285) (TX 0)
+            (TC 1) (IG 0)
+         )
+         (mul_a\[2\]
+            (T0 525) (T1 240) (TX 0)
+            (TC 2) (IG 0)
+         )
+         (mul_a\[1\]
+            (T0 525) (T1 240) (TX 0)
+            (TC 4) (IG 0)
+         )
+         (mul_a\[0\]
+            (T0 300) (T1 465) (TX 0)
+            (TC 9) (IG 0)
+         )
+         (mul_b\[3\]
+            (T0 645) (T1 120) (TX 0)
+            (TC 2) (IG 0)
+         )
+         (mul_b\[2\]
+            (T0 525) (T1 240) (TX 0)
+            (TC 2) (IG 0)
+         )
+         (mul_b\[1\]
+            (T0 525) (T1 240) (TX 0)
+            (TC 4) (IG 0)
+         )
+         (mul_b\[0\]
+            (T0 300) (T1 465) (TX 0)
+            (TC 9) (IG 0)
+         )
+         (clk
+            (T0 390) (T1 375) (TX 0)
+            (TC 25) (IG 0)
+         )
+         (rst_n
+            (T0 2) (T1 763) (TX 0)
+            (TC 1) (IG 0)
+         )
+      )
+   )
+)
+)

@@ -1,0 +1,75 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "Testbench": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "std": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        },
+        "TOP": {
+            "Compiled": "Yes",
+            "Compiled Times": 1
+        }
+    },
+    "CompUnits": {
+        "ThQKx_d": {
+            "mod": "TOP",
+            "out": "ThQKx_d.o",
+            "bytes": 19862,
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_24025_archive_1.a"
+        },
+        "amcQw_d": {
+            "mod": "...MASTER...",
+            "out": "objs/amcQw_d.o",
+            "bytes": 7638,
+            "mode": 4,
+            "checksum": 0
+        },
+        "qVPGR_d": {
+            "mod": "Testbench",
+            "out": "qVPGR_d.o",
+            "bytes": 135837,
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_24025_archive_1.a"
+        },
+        "reYIK_d": {
+            "mod": "std",
+            "out": "reYIK_d.o",
+            "bytes": 41582,
+            "mode": 4,
+            "checksum": 0,
+            "archive": "archive.0/_24025_archive_1.a"
+        }
+    },
+    "reusePaths": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.0/_24025_archive_1.a",
+            "objects": [
+                [
+                    "reYIK_d.o",
+                    41582
+                ],
+                [
+                    "ThQKx_d.o",
+                    19862
+                ],
+                [
+                    "qVPGR_d.o",
+                    135837
+                ],
+                [
+                    "amcQwB.o",
+                    92539
+                ]
+            ],
+            "size": 289820
+        }
+    ]
+}

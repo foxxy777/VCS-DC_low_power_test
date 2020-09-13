@@ -1,0 +1,145 @@
+{
+    "MlibObjs": {},
+    "CurCompileUdps": {},
+    "PrevCompiledModules": {
+        "TOP": {
+            "ThQKx_d": {
+                "bytes": 14695,
+                "archive": "archive.8/_prev_archive_1.a",
+                "mode": 4,
+                "mod": "TOP",
+                "out": "ThQKx_d.o",
+                "checksum": 0
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "bytes": 41582,
+                "archive": "archive.8/_prev_archive_1.a",
+                "mode": 4,
+                "mod": "std",
+                "out": "reYIK_d.o",
+                "checksum": 0
+            }
+        },
+        "Testbench": {
+            "qVPGR_d": {
+                "bytes": 17524,
+                "archive": "archive.8/_5742_archive_1.a",
+                "mode": 4,
+                "mod": "Testbench",
+                "out": "qVPGR_d.o",
+                "checksum": 0
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7638,
+                "mode": 4,
+                "mod": "...MASTER...",
+                "out": "objs/amcQw_d.o",
+                "checksum": 0
+            }
+        }
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 91530,
+        "archive": "archive.8/_5742_archive_1.a"
+    },
+    "CompileStrategy": "fullobj",
+    "CompileStatus": "Successful",
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "TOP": [
+            "TOP",
+            "ThQKx",
+            "module"
+        ],
+        "Testbench": [
+            "Testbench",
+            "qVPGR",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileProcesses": [
+        "cgproc.5742.json"
+    ],
+    "stat": {
+        "mopSpeed": 97164.574686202861,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.107983,
+            "ru_stime_sec": 0.088985999999999996,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 58360,
+            "ru_nivcsw": 47,
+            "ru_nvcsw": 570,
+            "ru_minflt": 16240
+        },
+        "Frontend(%)": 84.374902328488815,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0079979999999999999,
+            "ru_stime_sec": 0.005999,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 16184,
+            "ru_nivcsw": 13,
+            "ru_nvcsw": 4,
+            "ru_minflt": 1924
+        },
+        "peak_mem_kb": 220908,
+        "mop/quad": 2.180695847362514,
+        "ru_self_end": {
+            "ru_utime_sec": 0.12798000000000001,
+            "ru_stime_sec": 0.098984000000000003,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 64256,
+            "ru_nivcsw": 54,
+            "ru_nvcsw": 571,
+            "ru_minflt": 18837
+        },
+        "nMops": 1943,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0099979999999999999,
+            "ru_stime_sec": 0.0079979999999999999,
+            "ru_majflt": 0,
+            "ru_maxrss_kb": 17880,
+            "ru_nivcsw": 15,
+            "ru_nvcsw": 5,
+            "ru_minflt": 2476
+        },
+        "nQuads": 891,
+        "totalObjSize": 109054,
+        "quadSpeed": 44556.683502525346,
+        "outputSizePerQuad": 122.0,
+        "CodeGen(%)": 15.625097671511185
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "TOP",
+        "Testbench",
+        "Testbench"
+    ],
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "default_output_dir": "csrc",
+        "csrc_abs": "/public/home/bks/asic_058/Desktop/xy/demonstration/2_multi_pipeline_ok/multi_pipeline_4bit_ok/csrc",
+        "cwd": "/public/home/bks/asic_058/Desktop/xy/demonstration/2_multi_pipeline_ok/multi_pipeline_4bit_ok",
+        "archive_dir": "archive.8",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/public/home/bks/asic_058/Desktop/xy/demonstration/2_multi_pipeline_ok/multi_pipeline_4bit_ok/simv.daidir"
+    },
+    "PEModules": []
+}

@@ -1,0 +1,63 @@
+=======================DVE Context and Call Stack=========================
+Command line: /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2//gui/dve/linux64/bin/dve.exe -full64 -ucliplatform=linux64 -toolargs "-ucligui -toolexe ./simv  -pid 23816" -toolin /tmp/vcs_20191115114623_23814_asic_058..stdin -toolout /tmp/vcs_20191115114623_23814_asic_058..stdout
+
+--- Stack trace follows:
+[New LWP 24267]
+[New LWP 24158]
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib64/libthread_db.so.1".
+0x0000003c234ac86d in waitpid () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x2b1ddf9a3700 (LWP 24158)):
+#0  0x0000003c23c0b68c in pthread_cond_wait@@GLIBC_2.3.2 () from /lib64/libpthread.so.0
+#1  0x0000003c26830920 in ?? () from /usr/lib64/libX11.so.6
+#2  0x0000003c26830fc9 in ?? () from /usr/lib64/libX11.so.6
+#3  0x0000003c26825f1a in XFreeCursor () from /usr/lib64/libX11.so.6
+#4  0x00000000028d8097 in QCursorData::~QCursorData() ()
+#5  0x00000000028d85ae in QCursor::~QCursor() ()
+#6  0x00000000028d85ec in ?? ()
+#7  0x0000003c23435992 in exit () from /lib64/libc.so.6
+#8  0x00000000028c180c in ?? ()
+#9  0x0000003c2684488e in _XIOError () from /usr/lib64/libX11.so.6
+#10 0x0000003c268436ed in _XEventsQueued () from /usr/lib64/libX11.so.6
+#11 0x0000003c2681eb6e in XCheckTypedEvent () from /usr/lib64/libX11.so.6
+#12 0x00000000011216ab in ag::dveXThread::run() ()
+#13 0x0000000002915c0a in QThreadInstance::start(void*) ()
+#14 0x0000003c23c07aa1 in start_thread () from /lib64/libpthread.so.0
+#15 0x0000003c234e8bcd in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x2b1ddfba5700 (LWP 24267)):
+#0  0x0000003c234db78d in read () from /lib64/libc.so.6
+#1  0x0000003c23471b58 in _IO_new_file_underflow () from /lib64/libc.so.6
+#2  0x0000003c2347365e in _IO_default_uflow_internal () from /lib64/libc.so.6
+#3  0x0000003c23467d3a in _IO_getline_info_internal () from /lib64/libc.so.6
+#4  0x0000003c23466b99 in fgets () from /lib64/libc.so.6
+#5  0x000000000123c716 in ag::dveSmlSocket::run() ()
+#6  0x0000000002915c0a in QThreadInstance::start(void*) ()
+#7  0x0000003c23c07aa1 in start_thread () from /lib64/libpthread.so.0
+#8  0x0000003c234e8bcd in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x2b1ddede8720 (LWP 23838)):
+#0  0x0000003c234ac86d in waitpid () from /lib64/libc.so.6
+#1  0x0000003c2343e479 in do_system () from /lib64/libc.so.6
+#2  0x0000003c2343e7b0 in system () from /lib64/libc.so.6
+#3  0x00002b1ddd335428 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e639d2928478c79b3f673f99203bcf8be64600612100082236bffb2007f1e0ef9 () from /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2//linux64/lib/liberrorinf.so
+#4  0x00002b1ddd3359bd in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313e81c34e9ac4c8988ef4a6e067b3aa9271e9f15440f9e8f69ebc77e2fd65860faa () from /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2//linux64/lib/liberrorinf.so
+#5  0x00002b1ddd336cb5 in SNPSle_10ee25eff68cd8461c9146fa1d0b35e87067f3c8015b313efba706aab251478fa49e66610e453774633a6c152e7ef778f2202cda681f3d4e () from /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2//linux64/lib/liberrorinf.so
+#6  0x00002b1ddd32fb15 in SNPSle_d35ca1ff70d465c2b9b1a72eee90a506fdd009d3de3db1de () from /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2//linux64/lib/liberrorinf.so
+#7  0x0000000001fe4645 in ag::logErrorMessage(ag::errorType, QString const&, bool) ()
+#8  0x0000000001fe4df3 in ?? ()
+#9  0x0000003c2343596a in exit () from /lib64/libc.so.6
+#10 0x00000000028c180c in ?? ()
+#11 0x0000003c2684488e in _XIOError () from /usr/lib64/libX11.so.6
+#12 0x0000003c268436ed in _XEventsQueued () from /usr/lib64/libX11.so.6
+#13 0x0000003c2683437d in XPending () from /usr/lib64/libX11.so.6
+#14 0x00000000028de9cc in QEventLoop::processEvents(unsigned int) ()
+#15 0x0000000001163141 in ag::ovaEventLoop::processEvents(unsigned int) ()
+#16 0x000000000292c3b9 in QEventLoop::enterLoop() ()
+#17 0x000000000292c31a in QEventLoop::exec() ()
+#18 0x0000000001162ab7 in run_cci_event_loop ()
+#19 0x00000000011222c4 in ag::ovaAppInst::enterEventLoop(int, char**) ()
+#20 0x0000000000db8ae8 in main ()
+No context available
+==========================================================================

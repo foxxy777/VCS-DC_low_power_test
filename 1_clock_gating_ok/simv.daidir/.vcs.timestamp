@@ -1,0 +1,146 @@
+0 
+31
++itf+/public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/vcsdp.tab
++memcbk
++vcsd
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/libvirsim.so /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/liberrorinf.so /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/libsnpsmalloc.so
+-Mout=simv
+-Msaverestoreobj=/public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/include
+-Xpiyushb1=0x80
+-debug_access+all+dmptf+bc
+-debug_region=cell+lib
+-f vcslist
+-full64
+-gen_obj
+-l
+-picarchive
+-sverilog
+/public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/bin/vcs1
+vcslog.log
+100
+sysc_uni_pwd=/public/home/bks/asic_058/Desktop/xy/0.Demonstration/1_clock_gating_ok
+baseDeckRev=Rev24
+_LMFILES_=/usr/share/Modules/modulefiles/rocks-openmpi
+VMR_MODE_FLAG=64
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LOG_FILE=vcslog.log
+VCS_HOME=/public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOPMETAL=30kA
+TOOL_HOME=/public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64
+TECHDIR_PEX=/public/software/eda/library/0.18UM_BCDlite_Iso_1.8V_IC5V_6V_10V-30V/PEX-000034/018BCDlite
+TECHDIR_DRC=/public/software/eda/library/0.18UM_BCDlite_Iso_1.8V_IC5V_6V_10V-30V/YI-141-CC067/018BCDlite
+TECHDIR=/public/software/eda/library/0.18UM_BCDlite_Iso_1.8V_IC5V_6V_10V-30V/LVS-000018/018BCDlite
+SYNOPSYS_ROOT=/public/software/eda/synopsys/
+SYNOPSYS_ESP_ROOT=/public/software/eda/synopsys/software/esp/M-2016.12-SP1/
+STROOT=/public/software/eda/synopsys/software/sentaurus/H_2013.03
+STRELEASE=H-2013.03
+STAR_RCXT_HOME_DIR=/public/software/eda/synopsys/starrc/M-2016.12-SP3/
+SSH_CONNECTION=222.200.181.71 36448 192.168.18.22 22
+SSH_CLIENT=222.200.181.71 36448 22
+SSH_AUTH_SOCK=/tmp/keyring-OQAQOj/socket.ssh
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+SPYGLASS_HOME=/public/software/eda/synopsys/software/spyglass/SpyGlass-M2017.03-SP2-15/SPYGLASS_HOME/
+SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/31404,unix/unix:/tmp/.ICE-unix/31404
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+ROLLSROOT=/opt/rocks/share/devel/src/roll
+ROCKS_ROOT=/opt/rocks
+ROCKSROOT=/opt/rocks/share/devel
+QTLIB=/usr/lib64/qt-3.3/lib
+QTINC=/usr/lib64/qt-3.3/include
+QTDIR=/usr/lib64/qt-3.3
+QRC_HOME=/public/software/eda/Cadence/Software/PVE11
+POLY_HIGH_RESISTOR=2K
+PDSHROOT=/opt/pdsh
+PDK_PATH=/public/software/eda/library/0.18UM_BCDlite_Iso_1.8V_IC5V_6V_10V-30V
+OVA_UUM=0
+ORBIT_SOCKETDIR=/tmp/orbit-asic_058
+OMPI_MCA_btl=self,sm,tcp
+NWRING_SEPARATION=NO
+MTC_IC_GENERIC_LIB=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib/generic_lib
+MPIHOME=/opt/openmpi
+MODULESHOME=/usr/share/Modules
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+MMSIMHOME=/public/software/eda/Cadence/Software/MMSIM151
+MIM_OPTION=mim_1p5_3p0
+MIMCAP_SELECTION=2p0fF_OPT_B
+MGLS_LICENSE_FILE=1717@cluster.hpc
+MGC_MACROLIB=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib/mgc_ic_macrolib
+MGC_IC_VERILOG_LIB=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib/mgc_ic_verilog
+MGC_IC_SOURCES_LIB=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib/sources_lib
+MGC_IC_LIB=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib
+MGC_IC_DEVICE_LIB=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib/device_lib
+MGC_IC_COMMLIB_RF=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib/mgc_ic_comm_rf
+MGC_IC_COMMLIB_QS=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib/mgc_ic_comm_qs
+MGC_IC_COMMLIB=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33/mgc_icstd_lib/mgc_ic_commlib
+MGC_HOME=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33
+MFLAGS=
+MAKELEVEL=1
+MAKEFLAGS=
+LOADEDMODULES=rocks-openmpi
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LC_ALL=C
+KDEDIRS=/usr
+JAVA_HOME=/usr/java/latest
+INCISIV_HOME=/public/software/eda/Cadence/Software/INCISIV141
+IGNORE_FET_NF=NO
+IGNORE_DIO_M=NO
+IGNORE_CAP_M=NO
+ICV_HOME_DIR=/public/software/eda/synopsys/software/icvalidator/M-2016.12-SP2/
+HERCULES_HOME_DIR=/public/software/eda/synopsys/software/hercules/B-2008.09-SP5-HF4/
+G_BROKEN_FILENAMES=1
+GTK_RC_FILES=/etc/gtk/gtkrc:/public/home/bks/asic_058/.gtkrc-1.2-gnome2
+GNOME_KEYRING_SOCKET=/tmp/keyring-OQAQOj/socket
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+EXT_HOME=/public/software/eda/Cadence/Software/EXT132
+ET_HOME=/public/software/eda/Cadence/Software/ET111
+ETS_HOME=/public/software/eda/Cadence/Software/ETS11_USR3
+ERC_RUN=NO
+EDI_HOME=/public/software/eda/Cadence/Software/EDI11_USR3
+DUAL_GATE=3P3V_24V
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-13FLANhOyo,guid=b51d1776b127e625da01e454000ccddd
+CVS_RSH=ssh
+CTOS_HOME=/public/software/eda/Cadence/Software/CTOS13.10.101
+CONFRML_HOME=/public/software/eda/Cadence/Software/CONFRML171
+COLORTERM=gnome-terminal
+CDS_Netlisting_Mode=Analog
+CDS_LIC_FILE=/public/software/eda/Cadence/Software/license-A/license_cds/Cad_license.lic
+CDS_AUTO_64BIT=ALL
+CDSHOME=/public/software/eda/Cadence/Software/IC616ISR14
+CALIBRE_HOME=/public/software/eda/mentor/software/calibre/aoi_cal_2017.1_34.33
+BEOL_STACK=1P6M
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`_}
+ASSURAHOME=/public/software/eda/Cadence/Software/Assura41USR2HF14_615
+ARCHPRO_ROOT=/eda/public/software/synopsys/software/mvtools/K-2015.09-SP1/
+ANT_HOME=/opt/rocks
+0
+4
+1573815469 ./Testbench_for_saif.v
+1573283344 ./TOP.v
+1573127290 vcslist
+1479878959 /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/vcsdp.tab
+4
+0 
+1479879613 /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/libvirsim.so
+1479879100 /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/liberrorinf.so
+1479879064 /public/software/eda/synopsys/software/vcs-mx/L-2016.06-SP2/linux64/lib/libsnpsmalloc.so
+1573972626 simv.daidir

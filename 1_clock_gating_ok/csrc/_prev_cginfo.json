@@ -1,0 +1,108 @@
+{
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_minflt": 16164,
+            "ru_utime_sec": 0.098984000000000003,
+            "ru_stime_sec": 0.087985999999999995,
+            "ru_maxrss_kb": 58192,
+            "ru_majflt": 0,
+            "ru_nvcsw": 569,
+            "ru_nivcsw": 41
+        },
+        "mopSpeed": 51637.279596977321,
+        "ru_childs_cgstart": {
+            "ru_minflt": 1924,
+            "ru_utime_sec": 0.0029989999999999999,
+            "ru_stime_sec": 0.0079979999999999999,
+            "ru_maxrss_kb": 16128,
+            "ru_majflt": 0,
+            "ru_nvcsw": 3,
+            "ru_nivcsw": 11
+        },
+        "totalObjSize": 176378,
+        "nMops": 1394,
+        "ru_childs_end": {
+            "ru_minflt": 1924,
+            "ru_utime_sec": 0.0029989999999999999,
+            "ru_stime_sec": 0.0079979999999999999,
+            "ru_maxrss_kb": 16128,
+            "ru_majflt": 0,
+            "ru_nvcsw": 3,
+            "ru_nivcsw": 11
+        },
+        "quadSpeed": 29263.594606608382,
+        "nQuads": 790,
+        "ru_self_end": {
+            "ru_minflt": 18845,
+            "ru_utime_sec": 0.12598000000000001,
+            "ru_stime_sec": 0.095985000000000001,
+            "ru_maxrss_kb": 67116,
+            "ru_majflt": 0,
+            "ru_nvcsw": 569,
+            "ru_nivcsw": 49
+        },
+        "Frontend(%)": 78.571201778060015,
+        "mop/quad": 1.7645569620253165,
+        "outputSizePerQuad": 223.0,
+        "CodeGen(%)": 21.428798221939996,
+        "peak_mem_kb": 220784
+    },
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "TOP": [
+            "TOP",
+            "ThQKx",
+            "module"
+        ],
+        "Testbench": [
+            "Testbench",
+            "qVPGR",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CompileProcesses": [
+        "cgproc.15846.json"
+    ],
+    "PEModules": [],
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "TOP",
+        "TOP",
+        "Testbench",
+        "Testbench"
+    ],
+    "SIMBData": {
+        "archive": "archive.0/_15846_archive_1.a",
+        "out": "amcQwB.o",
+        "bytes": 92358
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "csrc_abs": "/public/home/bks/asic_058/Desktop/xy/demonstration/1_clock_gating_ok/csrc",
+        "cwd": "/public/home/bks/asic_058/Desktop/xy/demonstration/1_clock_gating_ok",
+        "csrc": "csrc",
+        "daidir": "simv.daidir",
+        "archive_dir": "archive.0",
+        "daidir_abs": "/public/home/bks/asic_058/Desktop/xy/demonstration/1_clock_gating_ok/simv.daidir",
+        "default_output_dir": "csrc"
+    },
+    "CompileStatus": "Successful"
+}

@@ -1,0 +1,144 @@
+{
+    "MlibObjs": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "TOP",
+        "Testbench"
+    ],
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.095985000000000001,
+            "ru_nvcsw": 568,
+            "ru_stime_sec": 0.088985999999999996,
+            "ru_maxrss_kb": 58516,
+            "ru_majflt": 0,
+            "ru_minflt": 16263,
+            "ru_nivcsw": 38
+        },
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0029989999999999999,
+            "ru_nvcsw": 3,
+            "ru_stime_sec": 0.0099979999999999999,
+            "ru_maxrss_kb": 16168,
+            "ru_majflt": 0,
+            "ru_minflt": 1925,
+            "ru_nivcsw": 13
+        },
+        "nQuads": 734,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.003999,
+            "ru_nvcsw": 4,
+            "ru_stime_sec": 0.012997999999999999,
+            "ru_maxrss_kb": 17932,
+            "ru_majflt": 0,
+            "ru_minflt": 2478,
+            "ru_nivcsw": 16
+        },
+        "nMops": 1537,
+        "totalObjSize": 91682,
+        "ru_self_end": {
+            "ru_utime_sec": 0.110983,
+            "ru_nvcsw": 569,
+            "ru_stime_sec": 0.093984999999999999,
+            "ru_maxrss_kb": 63668,
+            "ru_majflt": 0,
+            "ru_minflt": 18633,
+            "ru_nivcsw": 41
+        },
+        "mop/quad": 2.0940054495912808,
+        "mopSpeed": 102480.33071076145,
+        "quadSpeed": 48939.858647819718,
+        "outputSizePerQuad": 124.0,
+        "CodeGen(%)": 13.513781389942602,
+        "Frontend(%)": 86.486218610057392,
+        "peak_mem_kb": 220904
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "PrevCompiledModules": {
+        "TOP": {
+            "ThQKx_d": {
+                "archive": "archive.13/_prev_archive_1.a",
+                "bytes": 15127,
+                "mod": "TOP",
+                "mode": 4,
+                "out": "ThQKx_d.o",
+                "checksum": 0
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "bytes": 7638,
+                "mod": "...MASTER...",
+                "mode": 4,
+                "out": "objs/amcQw_d.o",
+                "checksum": 0
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "archive": "archive.13/_prev_archive_1.a",
+                "bytes": 41582,
+                "mod": "std",
+                "mode": 4,
+                "out": "reYIK_d.o",
+                "checksum": 0
+            }
+        },
+        "Testbench": {
+            "qVPGR_d": {
+                "archive": "archive.13/_prev_archive_1.a",
+                "bytes": 17661,
+                "mod": "Testbench",
+                "checksum": 0,
+                "out": "qVPGR_d.o",
+                "mode": 4
+            }
+        }
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "archive": "archive.13/_1377_archive_1.a",
+        "bytes": 91682
+    },
+    "NameTable": {
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ],
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "TOP": [
+            "TOP",
+            "ThQKx",
+            "module"
+        ],
+        "Testbench": [
+            "Testbench",
+            "qVPGR",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "CurCompileUdps": {},
+    "CompileStatus": "Successful",
+    "PEModules": [],
+    "CompileProcesses": [
+        "cgproc.1377.json"
+    ],
+    "Misc": {
+        "daidir": "simv.daidir",
+        "cwd": "/public/home/bks/asic_058/Desktop/xy/demonstration/2_multi_pipeline_ok/multi_common_none_pipeline_4bit",
+        "daidir_abs": "/public/home/bks/asic_058/Desktop/xy/demonstration/2_multi_pipeline_ok/multi_common_none_pipeline_4bit/simv.daidir",
+        "csrc": "csrc",
+        "csrc_abs": "/public/home/bks/asic_058/Desktop/xy/demonstration/2_multi_pipeline_ok/multi_common_none_pipeline_4bit/csrc",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.13"
+    }
+}

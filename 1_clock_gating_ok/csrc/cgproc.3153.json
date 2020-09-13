@@ -1,0 +1,44 @@
+{
+    "Modules": {
+        "...MASTER...": {},
+        "std": {
+            "Compiled Times": 2,
+            "Compiled": "Yes"
+        },
+        "TOP": {
+            "Compiled Times": 2,
+            "Compiled": "Yes"
+        },
+        "Testbench": {
+            "Compiled Times": 2,
+            "Compiled": "Yes"
+        }
+    },
+    "CompUnits": {},
+    "ObjArchives": [
+        {
+            "archive": "archive.1/_3153_archive_1.a",
+            "objects": [
+                [
+                    "amcQwB.o",
+                    91402
+                ]
+            ],
+            "size": 91402
+        }
+    ],
+    "reusePaths": {
+        "amcQw_d": {
+            "icPath": "csrc"
+        },
+        "qVPGR_d": {
+            "icPath": "csrc"
+        },
+        "reYIK_d": {
+            "icPath": "csrc"
+        },
+        "ThQKx_d": {
+            "icPath": "csrc"
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "MlibObjs": {},
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileStrategy": "fullobj",
+    "PrevCompiledModules": {
+        "TOP": {
+            "ThQKx_d": {
+                "mod": "TOP",
+                "bytes": 15127,
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.14/_prev_archive_1.a",
+                "out": "ThQKx_d.o"
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "mod": "std",
+                "bytes": 41582,
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.14/_prev_archive_1.a",
+                "out": "reYIK_d.o"
+            }
+        },
+        "Testbench": {
+            "qVPGR_d": {
+                "mod": "Testbench",
+                "bytes": 17661,
+                "mode": 4,
+                "checksum": 0,
+                "archive": "archive.14/_prev_archive_1.a",
+                "out": "qVPGR_d.o"
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mod": "...MASTER...",
+                "bytes": 7638,
+                "mode": 4,
+                "checksum": 0,
+                "out": "objs/amcQw_d.o"
+            }
+        }
+    },
+    "CompileStatus": "Successful",
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "TOP": [
+            "TOP",
+            "ThQKx",
+            "module"
+        ],
+        "Testbench": [
+            "Testbench",
+            "qVPGR",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "stat": {
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.082987000000000005,
+            "ru_stime_sec": 0.13697899999999999,
+            "ru_maxrss_kb": 58528,
+            "ru_minflt": 16271,
+            "ru_majflt": 0,
+            "ru_nvcsw": 570,
+            "ru_nivcsw": 52
+        },
+        "ru_self_end": {
+            "ru_utime_sec": 0.097985000000000003,
+            "ru_stime_sec": 0.14497699999999999,
+            "ru_maxrss_kb": 63644,
+            "ru_minflt": 18623,
+            "ru_majflt": 0,
+            "ru_nvcsw": 571,
+            "ru_nivcsw": 57
+        },
+        "quadSpeed": 48939.858647819718,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.003999,
+            "ru_stime_sec": 0.0079979999999999999,
+            "ru_maxrss_kb": 16180,
+            "ru_minflt": 1924,
+            "ru_majflt": 0,
+            "ru_nvcsw": 4,
+            "ru_nivcsw": 10
+        },
+        "outputSizePerQuad": 124.0,
+        "nMops": 1537,
+        "mop/quad": 2.0940054495912808,
+        "nQuads": 734,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.0069979999999999999,
+            "ru_stime_sec": 0.0099979999999999999,
+            "ru_maxrss_kb": 17940,
+            "ru_minflt": 2477,
+            "ru_majflt": 0,
+            "ru_nvcsw": 5,
+            "ru_nivcsw": 13
+        },
+        "totalObjSize": 91698,
+        "mopSpeed": 102480.33071076145,
+        "peak_mem_kb": 220904,
+        "Frontend(%)": 84.693575547277646,
+        "CodeGen(%)": 15.306424452722354
+    },
+    "PEModules": [],
+    "CurCompileUdps": {},
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "bytes": 91698,
+        "archive": "archive.14/_8896_archive_1.a"
+    },
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "TOP",
+        "Testbench"
+    ],
+    "CompileProcesses": [
+        "cgproc.8896.json"
+    ],
+    "Misc": {
+        "csrc": "csrc",
+        "cwd": "/public/home/bks/asic_058/Desktop/xy/0.Demonstration/2_multi_pipeline_ok/multi_common_none_pipeline_4bit",
+        "csrc_abs": "/public/home/bks/asic_058/Desktop/xy/0.Demonstration/2_multi_pipeline_ok/multi_common_none_pipeline_4bit/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/public/home/bks/asic_058/Desktop/xy/0.Demonstration/2_multi_pipeline_ok/multi_common_none_pipeline_4bit/simv.daidir",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.14"
+    }
+}

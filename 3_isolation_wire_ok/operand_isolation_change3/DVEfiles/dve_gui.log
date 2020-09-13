@@ -1,0 +1,27 @@
+Chronologic VCS simulator copyright 1991-2016
+Contains Synopsys proprietary information.
+Compiler version L-2016.06-SP2_Full64; Runtime version L-2016.06-SP2_Full64;  Nov 17 14:45 2019
+VCD+ Writer L-2016.06-SP2_Full64 Copyright (c) 1991-2016 by Synopsys Inc.
+The file '/public/home/bks/asic_058/Desktop/xy/0.Demonstration/3_isolation_wire_ok/operand_isolation_change3/inter.vpd' was opened successfully.
+Warning: [AD-MD] Missing dump for active drivers
+  Missing dump for the following signals when doing active drivers analysis:
+      * Testbench.top_instance.a_1 from time 625000
+      * Testbench.top_instance.a_2 from time 625000
+      * Testbench.top_instance.a_3 from time 625000
+      * Testbench.top_instance.a_4 from time 625000
+      * Testbench.top_instance.b_1 from time 625000
+      * Testbench.top_instance.b_2 from time 625000
+      * Testbench.top_instance.b_3 from time 625000
+      * Testbench.top_instance.b_4 from time 625000
+      * Testbench.top_instance.clk from time 624999
+      * Testbench.top_instance.out from time 625000
+      * Testbench.top_instance.rst from time 624999
+  Some drivers couldn't be analyzed and will be shown as active.
+  Please dump the listed signals if you need more precise active drivers 
+  analysis.
+i/dve/libraries/syn/generic.sdb'
+6 drivers (6 possibly active statements) found for signal: Testbench.out_tb[7:0]
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 630000 ps
+CPU Time:      0.250 seconds;       Data structure size:   0.0Mb
+Sun Nov 17 14:47:22 2019

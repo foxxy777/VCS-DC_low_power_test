@@ -1,0 +1,144 @@
+{
+    "CompileStatus": "Successful",
+    "MlibObjs": {},
+    "PrevCompiledModules": {
+        "TOP": {
+            "ThQKx_d": {
+                "mod": "TOP",
+                "bytes": 9549,
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "ThQKx_d.o",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "std": {
+            "reYIK_d": {
+                "mod": "std",
+                "bytes": 41582,
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "reYIK_d.o",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "Testbench": {
+            "qVPGR_d": {
+                "mod": "Testbench",
+                "bytes": 25251,
+                "archive": "archive.1/_prev_archive_1.a",
+                "out": "qVPGR_d.o",
+                "mode": 4,
+                "checksum": 0
+            }
+        },
+        "...MASTER...": {
+            "amcQw_d": {
+                "mod": "...MASTER...",
+                "bytes": 7638,
+                "out": "objs/amcQw_d.o",
+                "mode": 4,
+                "checksum": 0
+            }
+        }
+    },
+    "CurCompileUdps": {},
+    "CurCompileModules": [
+        "...MASTER...",
+        "std",
+        "TOP",
+        "Testbench"
+    ],
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "TOP": [
+            "TOP",
+            "ThQKx",
+            "module"
+        ],
+        "Testbench": [
+            "Testbench",
+            "qVPGR",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CompileStrategy": "fullobj",
+    "stat": {
+        "nQuads": 790,
+        "mopSpeed": 99585.655093584821,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.10298400000000001,
+            "ru_stime_sec": 0.084986999999999993,
+            "ru_nivcsw": 44,
+            "ru_maxrss_kb": 58160,
+            "ru_minflt": 16187,
+            "ru_majflt": 0,
+            "ru_nvcsw": 570
+        },
+        "peak_mem_kb": 220908,
+        "ru_self_end": {
+            "ru_utime_sec": 0.116982,
+            "ru_stime_sec": 0.092984999999999998,
+            "ru_nivcsw": 47,
+            "ru_maxrss_kb": 63224,
+            "ru_minflt": 18494,
+            "ru_majflt": 0,
+            "ru_nvcsw": 571
+        },
+        "ru_childs_end": {
+            "ru_utime_sec": 0.004999,
+            "ru_stime_sec": 0.011998,
+            "ru_nivcsw": 15,
+            "ru_maxrss_kb": 17844,
+            "ru_minflt": 2480,
+            "ru_majflt": 0,
+            "ru_nvcsw": 4
+        },
+        "CodeGen(%)": 11.965943478483867,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.0029989999999999999,
+            "ru_stime_sec": 0.0099979999999999999,
+            "ru_nivcsw": 13,
+            "ru_maxrss_kb": 16096,
+            "ru_minflt": 1929,
+            "ru_majflt": 0,
+            "ru_nvcsw": 3
+        },
+        "nMops": 1394,
+        "totalObjSize": 91402,
+        "quadSpeed": 56436.633804829275,
+        "mop/quad": 1.7645569620253165,
+        "Frontend(%)": 88.034056521516135,
+        "outputSizePerQuad": 115.0
+    },
+    "PEModules": [],
+    "SIMBData": {
+        "archive": "archive.1/_3153_archive_1.a",
+        "out": "amcQwB.o",
+        "bytes": 91402
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "CompileProcesses": [
+        "cgproc.3153.json"
+    ],
+    "Misc": {
+        "cwd": "/public/home/bks/asic_058/Desktop/xy/0.Demonstration/1_clock_gating_ok",
+        "archive_dir": "archive.1",
+        "csrc": "csrc",
+        "csrc_abs": "/public/home/bks/asic_058/Desktop/xy/0.Demonstration/1_clock_gating_ok/csrc",
+        "daidir": "simv.daidir",
+        "daidir_abs": "/public/home/bks/asic_058/Desktop/xy/0.Demonstration/1_clock_gating_ok/simv.daidir",
+        "default_output_dir": "csrc"
+    }
+}

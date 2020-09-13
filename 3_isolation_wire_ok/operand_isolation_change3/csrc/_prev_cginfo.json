@@ -1,0 +1,108 @@
+{
+    "MlibObjs": {},
+    "PrevCompiledModules": {},
+    "NameTable": {
+        "std": [
+            "std",
+            "reYIK",
+            "module"
+        ],
+        "TOP": [
+            "TOP",
+            "ThQKx",
+            "module"
+        ],
+        "Testbench": [
+            "Testbench",
+            "qVPGR",
+            "module"
+        ],
+        "...MASTER...": [
+            "SIM",
+            "amcQw",
+            "module"
+        ]
+    },
+    "CurCompileUdps": {},
+    "PEModules": [],
+    "CompileStrategy": "fullobj",
+    "CurCompileModules": [
+        "...MASTER...",
+        "...MASTER...",
+        "std",
+        "std",
+        "TOP",
+        "TOP",
+        "Testbench",
+        "Testbench"
+    ],
+    "stat": {
+        "nQuads": 4779,
+        "CodeGen(%)": 33.168456545311422,
+        "ru_self_cgstart": {
+            "ru_utime_sec": 0.13497899999999999,
+            "ru_stime_sec": 0.085986000000000007,
+            "ru_maxrss_kb": 59012,
+            "ru_minflt": 16963,
+            "ru_nvcsw": 569,
+            "ru_majflt": 0,
+            "ru_nivcsw": 36
+        },
+        "quadSpeed": 71339.005821764425,
+        "ru_childs_cgstart": {
+            "ru_utime_sec": 0.005999,
+            "ru_stime_sec": 0.011998,
+            "ru_maxrss_kb": 17980,
+            "ru_minflt": 2426,
+            "ru_nvcsw": 5,
+            "ru_majflt": 0,
+            "ru_nivcsw": 17
+        },
+        "nMops": 7013,
+        "totalObjSize": 294308,
+        "ru_self_end": {
+            "ru_utime_sec": 0.20196900000000001,
+            "ru_stime_sec": 0.094985,
+            "ru_maxrss_kb": 68032,
+            "ru_minflt": 19763,
+            "ru_nvcsw": 569,
+            "ru_majflt": 0,
+            "ru_nivcsw": 47
+        },
+        "peak_mem_kb": 221096,
+        "ru_childs_end": {
+            "ru_utime_sec": 0.005999,
+            "ru_stime_sec": 0.011998,
+            "ru_maxrss_kb": 17980,
+            "ru_minflt": 2426,
+            "ru_nvcsw": 5,
+            "ru_majflt": 0,
+            "ru_nivcsw": 17
+        },
+        "mopSpeed": 104687.26675623225,
+        "mop/quad": 1.4674618120945804,
+        "outputSizePerQuad": 61.0,
+        "Frontend(%)": 66.831543454688585
+    },
+    "SIMBData": {
+        "out": "amcQwB.o",
+        "archive": "archive.0/_23618_archive_1.a",
+        "bytes": 92507
+    },
+    "LVLData": [
+        "SIM"
+    ],
+    "Misc": {
+        "cwd": "/public/home/bks/asic_058/Desktop/xy/demonstration/3_isolation_wire_ok/operand_isolation_change3",
+        "daidir": "simv.daidir",
+        "csrc_abs": "/public/home/bks/asic_058/Desktop/xy/demonstration/3_isolation_wire_ok/operand_isolation_change3/csrc",
+        "csrc": "csrc",
+        "daidir_abs": "/public/home/bks/asic_058/Desktop/xy/demonstration/3_isolation_wire_ok/operand_isolation_change3/simv.daidir",
+        "default_output_dir": "csrc",
+        "archive_dir": "archive.0"
+    },
+    "CompileProcesses": [
+        "cgproc.23618.json"
+    ],
+    "CompileStatus": "Successful"
+}
